@@ -23,6 +23,11 @@ body {
     color: rgb(222, 223, 224);
 }
 
+.footer-link {
+    font-size: 1.4em;
+    color: rgb(48, 47, 47);
+}
+
 #nav-bar {
     float: right;
     margin-top: 15px;
@@ -63,15 +68,16 @@ input[type="search"] {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: rgb(57, 57, 58);
+    background-color: rgb(49, 49, 49);
+    padding: 13px 0;
+    /* overflow: hidden; */
 }
-
-#footer-bar{
-    overflow: hidden;
+footer div {
+    padding: 0 20px;
 }
 
 #footer-bar #left-side-footer {
